@@ -2,13 +2,9 @@
 
 ## Background
 
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+"What's the weather like as we approach the equator? How is the weather affect our life and the earth globally? 
 
-Now, we know what you may be thinking: _"Duh. It gets hotter..."_
-
-But, if pressed, how would you **prove** it? 
-----
-How is the weather affect our life and the earth globally? Through this project, we explored the relationship with the latitudinal position between maximum temperature (F), humidity (%), cloudiness (%), and wind speen (mph) over 500+ cities worldwide. Hereby extend the technologies, gather the data with API keys from website: [OpenWeatherMap API](https://openweathermap.org/api) with random data set vary from the equator, Northern or Southern Hemisphere, analysize with Python, NumPy, citiPy, SciPy through linear regression to determine whether correlation existed between city latitude and other elements from the result. Later on, the result could also help us to plan travel in good weather condition in different cities.
+Through this project, we explored the relationship with the latitudinal position between maximum temperature (F), humidity (%), cloudiness (%), and wind speen (mph) over 500+ cities worldwide. Hereby extend the technologies, gather the data with API keys from website: [OpenWeatherMap API](https://openweathermap.org/api) throuth those random data set vary from the equator, Northern or Southern Hemisphere, analysize via Python, NumPy, citiPy, SciPy through linear regression to determine whether correlation existed between city latitude and other elements from the result. Later on, the result could also help us to plan travel in good weather condition in different cities.
 
 ![latitude_worldmap](Images/latitude_worldmap.jpg)
 
@@ -16,14 +12,19 @@ How is the weather affect our life and the earth globally? Through this project,
 Jupyter Notebook
 Python - Pandas, JSON, Matplotlib, NumPy, SciPy, CitiPy, Gmaps, OS, Requests
 
+
 ### Data Sources
 Cities CSV
 
 ### References
-[OpenWeatherMap API](https://openweathermap.org/api)
-[citipy Python library](https://pypi.python.org/pypi/citipy)
-[geographic coordinate system](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm)
-[Google Maps Platform Billing](https://developers.google.com/maps/billing/gmp-billing#monitor-and-restrict-consumption) 
+[OpenWeatherMap API](https://openweathermap.org/api), 
+
+[citipy Python library](https://pypi.python.org/pypi/citipy),
+
+[geographic coordinate system](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm),
+
+[Google Maps Platform Billing](https://developers.google.com/maps/billing/gmp-billing#monitor-and-restrict-consumption),
+
 [Manage your cost of use](https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps)
 
 
