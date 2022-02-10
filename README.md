@@ -8,7 +8,7 @@ Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
 But, if pressed, how would you **prove** it?
 
-![latitude_worldmap](Images/latitude_worldmap.png)
+![latitude_worldmap](Images/latitude_worldmap.jpg)
 
 ### Preparing Ahead
 
