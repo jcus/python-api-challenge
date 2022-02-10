@@ -1,4 +1,4 @@
-# Python API Homework - What's the Weather Like?
+# Python API - What's the Weather Like?
 
 ## Background
 
@@ -8,26 +8,25 @@ Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
 But, if pressed, how would you **prove** it?
 
-![Equator](Images/latitude_worldmap.png)
+![latitude_worldmap](Images/latitude_worldmap.png)
 
-### Before You Begin
+### Preparing Ahead
 
-1. Create a new repository for this project called `python-api-challenge`. **Do not add this homework to an existing repository**.
+1. Create a new repository called `python-api-challenge` and clone the new repository to your computer.
 
-2. Clone the new repository to your computer.
+2. Inside the repository folder, add new files called `WeatherPy.ipynb` and `VacationPy.ipynb` for the main scripts to run for each analysis.
 
-3. Inside the repository folder you just created, add new files called `WeatherPy.ipynb` and `VacationPy.ipynb`. These will be the main scripts to run for each analysis.
-
-4. Push the above changes to GitHub.
+3. Push the above changes to GitHub.
 
 
 ### Adding A .gitignore File
 
-We don't want the `api_keys.py` file containing the API key to be exposed to the public on GitHub, as this would mean anyone could copy and use our API key, possibly causing us to incur charges.
+To avoid `api_keys.py` file containing the API key to be exposed to the public on GitHub which possibly causing us to incur charges, we can add the files we don't want to track to the `.gitignore` file. This could keep our config file with API keys stays at local.
+
+If we only wanted to add the `WeatherPy.ipynb` file to GitHub we could type `git add WeatherPy.ipynb`. However, every time we want to add a new file or update current files to the repository, we have to add each file individually, which is time-consuming and cumbersome. Instead, we can add the files we don't want to track to the `.gitignore` file.
 
 When we type `git status` in the command line, we can see all the files we have created so far that are untracked.
 
-If we only wanted to add the `WeatherPy.ipynb` file to GitHub we could type `git add WeatherPy.ipynb`. However, every time we want to add a new file or update current files to the repository, we have to add each file individually, which is time-consuming and cumbersome. Instead, we can add the files we don't want to track to the `.gitignore` file.
 
 Before we add our files to GitHub, let's add `api_keys.py` to the `.gitignore` file. Follow these steps:
 
@@ -51,9 +50,9 @@ On GitHub, the only new file you should see is the `WeatherPy.ipynb` file.
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+Creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
-The first requirement is to create a series of scatter plots to showcase the following relationships:
+1. create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
@@ -62,7 +61,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
-The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+2. run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 * Southern Hemisphere - Temperature (F) vs. Latitude
@@ -145,9 +144,7 @@ As final considerations:
 
 * Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
 
-## Rubric
-
-[Unit 6 Rubric - Python API Homework - What's the Weather Like?](https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
+(https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
 
 - - -
 
