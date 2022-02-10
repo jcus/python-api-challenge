@@ -6,9 +6,26 @@ Whether financial, political, or social -- data's true power lies in its ability
 
 Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
-But, if pressed, how would you **prove** it?
+But, if pressed, how would you **prove** it? 
+----
+How is the weather affect our life and the earth globally? Through this project, we explored the relationship with the latitudinal position between maximum temperature (F), humidity (%), cloudiness (%), and wind speen (mph) over 500+ cities worldwide. Hereby extend the technologies, gather the data with API keys from website: [OpenWeatherMap API](https://openweathermap.org/api) with random data set vary from the equator, Northern or Southern Hemisphere, analysize with Python, NumPy, citiPy, SciPy through linear regression to determine whether correlation existed between city latitude and other elements from the result. Later on, the result could also help us to plan travel in good weather condition in different cities.
 
 ![latitude_worldmap](Images/latitude_worldmap.jpg)
+
+### Technologies Used
+Jupyter Notebook
+Python - Pandas, JSON, Matplotlib, NumPy, SciPy, CitiPy, Gmaps, OS, Requests
+
+### Data Sources
+Cities CSV
+
+### References
+[OpenWeatherMap API](https://openweathermap.org/api)
+[citipy Python library](https://pypi.python.org/pypi/citipy)
+[geographic coordinate system](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm)
+[Google Maps Platform Billing](https://developers.google.com/maps/billing/gmp-billing#monitor-and-restrict-consumption) 
+[Manage your cost of use](https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps)
+
 
 ### Preparing Ahead
 
@@ -83,7 +100,7 @@ Your final notebook must:
 
 ### Part II - VacationPy
 
-Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
+Utilizing the weather data to plan future vacations. The Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
 * **Note:** Remember that any API usage beyond the $200 credit will be charged to your personal account. You can set quotas and limits to your daily requests to be sure you can't be charged. Check out [Google Maps Platform Billing](https://developers.google.com/maps/billing/gmp-billing#monitor-and-restrict-consumption) and [Manage your cost of use](https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps) for more information.
 
@@ -132,19 +149,15 @@ As final considerations:
 
 * A starter code for Citipy has been provided. However, if you're craving an extra challenge, push yourself to learn how it works: [citipy Python library](https://pypi.python.org/pypi/citipy). Before you try to incorporate the library into your analysis, start by creating simple test cases outside your main script to confirm that you are using it correctly. Too often, when introduced to a new library, students get bogged down by the most minor of errors -- spending hours investigating their entire code -- when, in fact, a simple and focused test would have shown their basic utilization of the library was wrong from the start. Don't let this be you!
 
-* Part of our expectation in this challenge is that you will use critical thinking skills to understand how and why we're recommending the tools we are. What is Citipy for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
+* Use critical thinking skills to understand how and why we're recommending the tools we are. What is Citipy for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
 
-* In building your script, pay attention to the cities you are using in your query pool. Are you getting coverage of the full gamut of latitudes and longitudes? Or are you simply choosing 500 cities concentrated in one region of the world? Even if you were a geographic genius, simply rattling 500 cities based on your human selection would create a biased dataset. Be thinking of how you should counter this. (Hint: Consider the full range of latitudes).
+* In building your script, pay attention to the cities you are using in your query pool. Are you getting coverage of the full gamut of latitudes and longitudes? !! Consider the full range of latitudes when choosing 500 cities from the world.
 
-* Once you have computed the linear regression for one chart, the process will be similar for all others. As a bonus, try to create a function that will create these charts based on different parameters.
+* Once computed the linear regression for one chart, the process will be similar for all others. As a bonus, try to create a function that will create these charts based on different parameters.
 
-* Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
+* Each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
 
-* Ensure your repository has regular commits and a thorough README.md file.
-
-* Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
-
-(https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
+* This challenging activity letting you safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. 
 
 - - -
 
