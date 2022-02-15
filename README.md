@@ -37,7 +37,7 @@ Cities CSV
 3. Push the above changes to GitHub.
 
 
-### Adding A .gitignore File
+### Adding a .gitignore File
 
 To avoid `api_keys.py` file containing the API key to be exposed to the public on GitHub which possibly causing us to incur charges, we can add the files we don't want to track to the `.gitignore` file. This could keep our config file with API keys stays at local.
 
